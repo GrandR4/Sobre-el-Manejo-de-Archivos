@@ -122,7 +122,7 @@ else:
 
 from pathlib import Path
 
-archivo = Path("mi_archivo.txt")
+archivo = Path("Archivo.txt")
 
 
 if archivo.exists():
