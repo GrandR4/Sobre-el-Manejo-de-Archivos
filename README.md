@@ -99,7 +99,7 @@ except Exception as e:  # 'e' almacena detalles del error. En este caso, usamos 
     print(f"Ocurrió un error: {e}")
 ```
 
-Comprobación de la existencia de archivos
+# Comprobación de la existencia de archivos
 
 En Python se puede comprobar la existencia de archivos usando dos módulos: el módulo `os` o el módulo más moderno `pathlib`.
 
@@ -293,7 +293,7 @@ with open("ejemplo.txt", "r") as archivo:
 
 La organización y estructura de archivos en proyectos es fundamental para mantener el código limpio, fácil de entender y escalable. Aquí tienes una guía sobre cómo estructurar archivos en proyectos de software:
 
-* **1.** Directorio raíz del proyecto
+* **1. Directorio raíz del proyecto**
 
 El directorio raíz debe contener los archivos y carpetas principales del proyecto. Por ejemplo:
 ```
@@ -307,7 +307,7 @@ mi_proyecto/
 ├── requirements.txt
 └── .gitignore
 ```
-* **2.** Carpetas principales
+* **2. Carpetas principales**
 
 **src/:** Contiene el código fuente del proyecto. Aquí se organizan los módulos y paquetes.
 
@@ -319,7 +319,7 @@ mi_proyecto/
 
 **data/:** Archivos de datos, como bases de datos, CSV o JSON.
 
-* **3.** Archivos importantes
+* **3. Archivos importantes**
 
 **README.md:** Explica el propósito del proyecto, cómo instalarlo y usarlo.
 
@@ -328,7 +328,7 @@ mi_proyecto/
 **.gitignore:** Define los archivos y carpetas que deben ignorarse en el control de versiones.
 
 
-* **4.** Organización de módulos
+* **4. Organización de módulos**
 
 Si el proyecto es grande, divide el código en módulos o paquetes. Por ejemplo:
 ```
